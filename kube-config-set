@@ -1,0 +1,7 @@
+KUBECONFIG=~/.kube/config:~/Desktop/hs/micro-ticketing/docker-desktop-config kubectl config view --merge --flatten > ~/.kube/config
+
+export KUBECONFIG=~/.kube/config
+
+
+KUBECONFIG=~/.kube/config:~/Desktop/hs/micro-ticketing/cls-flvg31vs-config  kubectl config view --merge --flatten > ~/.kube/config
+export KUBECONFIG=~/.kube/config

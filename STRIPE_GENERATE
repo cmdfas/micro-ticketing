@@ -1,0 +1,1 @@
+kubectl create secret generic stripe-secret --from-literal=STRIPE_KEY=sk_test_51Iq8coF2R971VRaSIXS8zwSvDLibsXKepTRKN8B30eVhxGv3aN3UrILxFcK0dE6TKHJGGnfSmpy2pQLqMQnNyB7Y0083mKAVve
