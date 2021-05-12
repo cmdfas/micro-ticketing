@@ -1,10 +1,10 @@
 import express from 'express'
 
-import { currentUser } from '@cdtickets/common'
+import { currentUser, requireAuth } from '@cdtickets/common'
 
 const router = express.Router()
 
-router.get('/api/users/currentuser', currentUser, (req, res) => {
+router.get('/api/users/currentuser', currentUser, requireAuth, (req, res) => {
     res.send({ currentUser: req.currentUser || null })
 })
 
